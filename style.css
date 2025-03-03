@@ -1,0 +1,75 @@
+body {
+	background: #C2C1A5;
+	Color: #000000;
+	font-family: "Kaisei Tokumin", serif;
+}
+h1, h2, h2 {
+	 font-family: "Philosopher", serif
+}
+h1, h2 {
+	color: #72A4CC;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width: 700px;
+	margin: 1px auto;
+	background-color: #C2C1A5;
+}
+@media (max-width: 850px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 450px) {
+	.container {
+		width: 350px;
+	}
+}
+.card-white {
+	background-color: #F5F9E9;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+#profile {
+	width: 100px;
+}
+.image-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+.list-block {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-block li {
+	display: inline-block;
+	font-weight: 400;
+}
+.list-block li:nth-child(odd) {
+	font-weight: 800;
+}
+.list-block a {
+	color: #72A4CC;
+}
+.list-block a:hover {
+	color: #BC4435;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	font-size: 50px;
+}
+.list-inline i {
+	color: #000000;
+}
+.list-inline i:hover {
+	color: #BC4435;
+}
