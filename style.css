@@ -9,6 +9,9 @@ h1, h2, h2 {
 h1, h2 {
 	color: #72A4CC;
 }
+h1:hover, h2:hover {
+	color: #BC4435;
+}
 a {
 	text-decoration: none;
 }
