@@ -76,3 +76,6 @@ a {
 .list-inline i:hover {
 	color: #BC4435;
 }
+#url {
+	font-size: 5px
+}
